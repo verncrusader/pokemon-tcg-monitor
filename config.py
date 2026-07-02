@@ -54,10 +54,10 @@ CONFIG = {
     #                    4484 = Town Dr, 1372 = Fayetteville Rd,
     #                    5292 = New Bern Ave, 5118 = Tryon Rd
     # Best Buy store IDs: 299 = Glenwood Ave, 821 = Capital Blvd
-    "local_stores": {
-        "target":  ["1826", "1080"],
-        "walmart": ["2334", "5200", "2340"],
-        "bestbuy": ["299", "821"],
+  "local_stores": {
+    "target":  ["1826", "1080"],
+    "walmart": ["2334", "5200", "2340"],
+    "bestbuy": ["299", "821"],
     },
 }
 
