@@ -57,7 +57,7 @@ CONFIG = {
   "local_stores": {
     "target":  ["1826", "1080"],
     "walmart": ["2334", "5200", "2340"],
-    "bestbuy": ["299", "821"],
+    "bestbuy": ["1197"],
     },
 }
 
