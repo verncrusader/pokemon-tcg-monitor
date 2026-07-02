@@ -16,7 +16,7 @@ CONFIG = {
     "alert_cooldown_seconds":  240,
 
     # ── Notifications ─────────────────────────────────────────────────────────
-    "notifications": ["macos", "discord", "sms"],
+    "notifications": ["discord"],
 
     # ── Discord ───────────────────────────────────────────────────────────────
     "discord_webhook_url": os.getenv("WEBHOOK", ""),
