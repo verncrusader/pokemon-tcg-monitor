@@ -49,11 +49,16 @@ CONFIG = {
 
     # ── Local stores (your local area) ───────────────────────────────────────
     # Used by *_instore retailer checkers to monitor local physical stores.
-    # Target store IDs: 1826 = Capital Blvd, 1080 = Hwy 70 (Grove Barton Rd)
-    # Walmart store IDs: 1751 = Glenwood Ave, 2058 = New Hope Church Rd,
-    #                    4484 = Town Dr, 1372 = Fayetteville Rd,
-    #                    5292 = New Bern Ave, 5118 = Tryon Rd
-    # Best Buy store IDs: 299 = Glenwood Ave, 821 = Capital Blvd
+    # Target:
+    #   1088 = Lancaster Central (Fruitville Pike)
+    #   2545 = Warwick Township (Lititz Pike)
+    # Walmart:
+    #   2334 = Lancaster (Lincoln Hwy E)
+    #   5200 = Lancaster (Fruitville Pike)
+    #   2340 = Ephrata
+    # Best Buy:
+    #   1197 = Lancaster (Fruitville Pike)
+
   "local_stores": {
     "target":  ["1088", "2545"],
     "walmart": ["2334", "5200", "2340"],
