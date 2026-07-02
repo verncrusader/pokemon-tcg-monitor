@@ -56,7 +56,7 @@ CONFIG = {
     # Best Buy store IDs: 299 = Glenwood Ave, 821 = Capital Blvd
     "local_stores": {
         "target":  ["1826", "1080"],
-        "walmart": ["1751", "2058", "4484", "1372", "5292", "5118"],
+        "walmart": ["2334", "5200", "2340"],
         "bestbuy": ["299", "821"],
     },
 }
