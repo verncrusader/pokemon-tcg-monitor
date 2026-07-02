@@ -1,3 +1,4 @@
+
 """
 config.py — Drop Alert Master Edition
 Rules:
@@ -6,7 +7,10 @@ Rules:
   - No preorders — in-stock alerts only
 """
 
+import os
+
 CONFIG = {
+
     # ── Timing ────────────────────────────────────────────────────────────────
     "check_interval_seconds":  30,
     "alert_cooldown_seconds":  240,
@@ -15,7 +19,7 @@ CONFIG = {
     "notifications": ["macos", "discord", "sms"],
 
     # ── Discord ───────────────────────────────────────────────────────────────
-    "discord_webhook_url": "YOUR_DISCORD_WEBHOOK_URL_HERE",
+    "discord_webhook_url": os.getenv("WEBHOOK", ""),
     "discord_ping_everyone": False,
 
     # ── Multi-channel Discord webhooks ────────────────────────────────────────
