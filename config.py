@@ -55,7 +55,7 @@ CONFIG = {
     #                    5292 = New Bern Ave, 5118 = Tryon Rd
     # Best Buy store IDs: 299 = Glenwood Ave, 821 = Capital Blvd
   "local_stores": {
-    "target":  ["1826", "1080"],
+    "target":  ["1088"],
     "walmart": ["2334", "5200", "2340"],
     "bestbuy": ["1197"],
     },
